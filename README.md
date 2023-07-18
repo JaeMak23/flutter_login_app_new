@@ -1,23 +1,15 @@
 # flutter_login_app
 
-A new Flutter project.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-# Step 1 (Folder Structure)
+## Folder Structure
 1. Creating a folder structure.
 
 
-# Step 2 (Packages Folder)
-2. Create packages foder in the root directory.
+## Packages Folder
+1. Create packages foder in the root directory.
+
+
+
+## Creating a auth_repository package:
+1. Navigate to packages folder in the terminal
+2. Run this command ('flutter create --template package auth_repository')
