@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_login_app/src/utils/theme.dart';
 
-void main(){
+void main() {
   return runApp(const App());
 }
 
@@ -9,9 +10,11 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
+      theme: CustomAppTheme.lightTheme,
+      darkTheme: CustomAppTheme.lightTheme,
       themeMode: ThemeMode.dark,
-      home: AppHome(),
+      home: const AppHome(),
     );
   }
 }
