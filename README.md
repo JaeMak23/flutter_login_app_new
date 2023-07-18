@@ -14,3 +14,10 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+# Step 1 (Folder Structure)
+1. Creating a folder structure.
+
+
+# Step 2 (Packages Folder)
+2. Create packages foder in the root directory.
