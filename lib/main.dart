@@ -12,7 +12,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: CustomAppTheme.lightTheme,
-      darkTheme: CustomAppTheme.lightTheme,
+      darkTheme: CustomAppTheme.darkTheme,
       themeMode: ThemeMode.dark,
       home: const AppHome(),
     );
@@ -24,8 +24,13 @@ class AppHome extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(child: Text('Welcome')),
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('App bar 1.0'),
+      ),
+      body: const Center(
+        child: Text('Welcome'),
+      ),
     );
   }
 }
