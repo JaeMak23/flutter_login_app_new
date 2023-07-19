@@ -9,6 +9,7 @@ class CustomTextTheme{
       titleSmall: GoogleFonts.montserrat(
         color: Colors.deepPurple,
         fontSize: 24,
+        fontWeight: FontWeight.bold,
       ),
     );
   static TextTheme darkTextTheme = TextTheme(
@@ -18,6 +19,7 @@ class CustomTextTheme{
       titleSmall: GoogleFonts.montserrat(
         color: Colors.white60,
         fontSize: 24,
+        fontWeight: FontWeight.bold,
       ),
     );
 }

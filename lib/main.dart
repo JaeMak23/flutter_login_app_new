@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_login_app/src/features/screens/splash_screen/splash_screen.dart';
 import 'package:flutter_login_app/src/utils/theme.dart';
 
 void main() {
@@ -13,8 +14,8 @@ class App extends StatelessWidget {
     return MaterialApp(
       theme: CustomAppTheme.lightTheme,
       darkTheme: CustomAppTheme.darkTheme,
-      themeMode: ThemeMode.dark,
-      home: const AppHome(),
+      themeMode: ThemeMode.system,
+      home: const SplashScreen(),
     );
   }
 }
