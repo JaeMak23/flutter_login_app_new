@@ -91,12 +91,12 @@ class _SplashScreenState extends State<SplashScreen> {
     await Future.delayed(const Duration(microseconds: 500));
     setState(() => animate = true);
     await Future.delayed(const Duration(milliseconds: 5000));
-    // Navigator.pushReplacement(
-    //   context,
-    //   MaterialPageRoute(
-    //     builder: (context) => WelcomeScreen(),
-    //   ),
-    // );
+    Navigator.pushReplacement(
+      context,
+      MaterialPageRoute(
+        builder: (context) => WelcomeScreen(),
+      ),
+    );
   }
 }
 
