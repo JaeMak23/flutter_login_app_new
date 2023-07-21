@@ -15,7 +15,7 @@ class App extends StatelessWidget {
     return GetMaterialApp(
       theme: CustomAppTheme.lightTheme,
       darkTheme: CustomAppTheme.darkTheme,
-      themeMode: ThemeMode.system,
+      themeMode: ThemeMode.light,
       home:  SplashScreen(),
     );
   }
